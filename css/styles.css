@@ -1,0 +1,112 @@
+body {
+    background-color: #1e1e1e;
+}
+body:after {
+    position: absolute;
+    width: 0;
+    z-index: -1;
+    height: 0;
+    overflow: hidden;
+    content: url(./images/tw-color.png)  url(./images/ig-color.jpeg)  url(./images/in-color.png);
+}
+a {
+    cursor: pointer;
+    text-decoration: none;
+  
+}
+.header-main {
+    width: 100%;
+    height: 60px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+}
+.header-main-logo {
+width: fit-content;
+height: 100%;
+
+padding-left: 60px;
+display: flex;
+}
+.header-main-logo img {
+    height: 40px;
+    align-self: center;
+    }
+.header-main-nav {
+    width: fit-content;
+  
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.header-main-nav ul {
+ list-style: none;
+ margin-left: 30px;
+    
+}
+.header-main-nav ul li {
+ display: inline;
+ float: left;
+    
+}
+.header-main-nav ul li a {
+ padding: 0 10px;
+ font-family: Arial, Helvetica, sans-serif;
+ line-height: 60px;
+ display: block;
+ height: 100%;
+ 
+    
+}
+.header-main-nav ul li a:hover {
+    padding: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 60px;
+    color: #4AF7AD;
+    
+       
+   }
+.header-main-sm {
+    width: fit-content;
+    height: 100%;
+
+    padding-right: 60px;
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+
+}
+.header-main-sm-tw {
+    width: 30px;
+    height: 30px;
+    background-image: url(./images/tw.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main-sm-tw:hover {
+    background-image: url(./images/tw-color.png);
+}
+.header-main-sm-in {
+    width: 30px;
+    height:  30px;
+    background-image: url(./images/in.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main-sm-in:hover {
+    background-image: url(./images/in-color.png);
+}
+
+.header-main-sm-ig {
+    width: 30px;
+    height: 30px;
+    background-image: url(./images/ig.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-main-sm-ig:hover {
+    background-image: url(./images/ig-color.png);
+}
